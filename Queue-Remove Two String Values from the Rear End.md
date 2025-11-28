@@ -33,11 +33,7 @@ for i in range(n):
 if len(string_list) >= 2:
     string_list.pop()
     string_list.pop()
-elif len(string_list) == 1:
-    string_list.pop()
-    print("Only one string was in the list, so it's now empty.")
-else:
-    print("The list is empty. Nothing to remove.")
+
 if string_list:
     print("Updated list after removing last two elements:", string_list)
 else:
